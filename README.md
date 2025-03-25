@@ -32,6 +32,19 @@ cd todo-backend && npm install
 cd ../todo-frontend && npm install
 ```
 
+``` bash
+cd todo-frontend
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+npm install typeface-roboto
+```
+
+``` bash
+cd todo-backend
+npm install --save-dev typescript ts-node @types/node
+npm install express cors sqlite3
+npm install --save-dev @types/express @types/cors @types/sqlite3
+```
+
 ### 3. Запустите проект:
 
 Убедитесь что находитесь в корневой директории проекта **To-Do-List**.
