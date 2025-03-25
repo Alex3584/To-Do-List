@@ -2,13 +2,7 @@ import React from "react";
 import { IconButton, ListItem, ListItemText } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { Task } from "../types/Task";
-
-interface TaskItemProps {
-  task: Task;
-  onEdit: (task: Task) => void;
-  onDelete: (id: number) => void;
-}
+import { TaskItemProps } from "../types/Task";
 
 const TaskItem: React.FC<TaskItemProps> = ({ task, onEdit, onDelete }) => {
   return (

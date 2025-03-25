@@ -1,13 +1,7 @@
 import React from "react";
 import { List } from "@mui/material";
 import TaskItem from "./TaskItem";
-import { Task } from "../types/Task";
-
-interface TaskListProps {
-  tasks: Task[];
-  onEditTask: (task: Task) => void;
-  onDeleteTask: (id: number) => void;
-}
+import { TaskListProps } from "../types/Task";
 
 const TaskList: React.FC<TaskListProps> = ({
   tasks,
