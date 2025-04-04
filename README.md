@@ -1,6 +1,6 @@
 # 📌 Development of a REST API for managing a To-Do List
 
-A full-featured CRUD application with frontend and backend built on a modern tech stack.
+A full-featured CRUD application with both frontend and backend built on a modern tech stack, allowing users to create, edit, view, and delete tasks.
 
 ---
 
