@@ -1,30 +1,30 @@
-# 📌 Разработка REST API для управления списком задач (To-Do List)
+# 📌 Development of a REST API for managing a To-Do List
 
-Полноценное CRUD-приложение с фронтендом и бэкендом на современном стеке.
+A full-featured CRUD application with frontend and backend built on a modern tech stack.
 
 ---
 
-## 🛠️ Технологический стек
+## 🛠️ Technology Stack
 
 - ⚛️ **React + Vite + TypeScript** 
 - 🌐 **Express.js + SQLite**
 - 💄 **Material UI**
-- ⚙️ **REST API с сохранением данных в базе**
+- ⚙️ **REST API with data persistence in the database**
 
 ---
 
-## 📦 Установка и запуск проекта
+## 📦 Installation and Project Launch
 
-> ⚠️ Убедитесь, что у вас установлен **Node.js ≥ 18** и **npm**
+> ⚠️ Make sure you have **Node.js ≥ 18** и **npm** installed.
 
-### 1. Клонируйте репозиторий:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Alex3584/To-Do-List.git
 cd To-Do-List
 ```
 
-### 2. Установите зависимости:
+### 2. Install dependencies:
 
 ``` bash
 npm install
@@ -45,17 +45,17 @@ npm install express cors sqlite3
 npm install --save-dev @types/express @types/cors @types/sqlite3
 ```
 
-### 3. Запустите проект:
+### 3. Run the project:
 
-Убедитесь что находитесь в корневой директории проекта **To-Do-List**.
+Make sure you're in the root directory of the **To-Do-List** project.
 
 ```bash
-# Запускает и фронтенд, и бэкенд
+# Launches both frontend and backend
 npm run dev
 ```
 
-Откройте фронтенд: <http://localhost:5173>
+Open the frontend: <http://localhost:5173>
 
-Бэкенд работает по адресу: <http://localhost:3000>
+The backend runs at: <http://localhost:3000>
 
 ---
